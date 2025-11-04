@@ -24,7 +24,7 @@ export default function About() {
                         <h3 className="text-teal-600 font-semibold mb-2 sm:mb-3 text-sm sm:text-base">
                             ABOUT ME
                         </h3>
-                        <h1 className="text-2xl w-75 sm:text-4xl md:text-4xl font-extrabold text-gray-900 leading-snug">
+                        <h1 className="text-4xl w-75 sm:text-4xl md:text-4xl font-bold text-gray-900 leading-snug">
                             Junior Software Engineer · MERN Stack Expert
                         </h1>
                         <p className="text-gray-600 mt-5 sm:mt-6 text-base sm:text-lg leading-relaxed max-w-xl">
@@ -92,7 +92,7 @@ export default function About() {
                         <h3 className="text-teal-600 font-semibold mb-2 sm:mb-3 text-sm sm:text-base">
                             MY SKILLS
                         </h3>
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug mb-4 sm:mb-6">
+                        <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-snug mb-4 sm:mb-6">
                             Solving Problems With Scalable Solutions
                         </h1>
                         <p className="text-gray-600 text-sm sm:text-base leading-relaxed max-w-xl">

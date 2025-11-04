@@ -40,16 +40,16 @@ export default function Contact() {
           {/* Container */}
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
             {/* Left Info */}
-            <div className="flex-1 bg-white rounded-2xl shadow-md border border-teal-100 p-6 sm:p-8">
+            <div className="flex-1 bg-white rounded-2xl shadow-md border border-teal-100 p-2 sm:p-8">
               <h1 className="text-teal-600 font-semibold text-2xl mb-2">
                 Contact Me
               </h1>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 Have a <span className="text-teal-600">Project</span> in Mind?
               </h2>
               <p className="text-gray-700 mb-6">
                 I'm available for both freelance and full-time roles. Feel free to
-                reach out — I usually respond within 24 hours.
+                reach out. I usually respond within 24 hours.
               </p>
 
               {/* Contact Info */}
@@ -142,8 +142,8 @@ export default function Contact() {
             </div>
 
             {/* Right Form */}
-            <div className="flex-1 bg-white rounded-2xl shadow-md border border-teal-100 p-6 sm:p-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            <div className="flex-1 bg-white rounded-2xl shadow-md border border-teal-100 p-2 sm:p-8">
+              <h2 className="text-xl font-bold text-gray-800 mb-6">
                 Send Message
               </h2>
               <form onSubmit={handleSubmit} className="space-y-5">
@@ -195,7 +195,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     rows="4"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 outline-none resize-none"
+                    className="w-full px-4  border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 outline-none resize-none"
                     placeholder="Type your message..."
                     required
                   ></textarea>

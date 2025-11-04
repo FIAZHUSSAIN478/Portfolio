@@ -38,10 +38,10 @@ export default function Blogs() {
                 "JavaScript brings logic, interactivity, and life to web applications. It allows you to manipulate the DOM, handle user input, and fetch data from APIs — all in real time. With ES6, features like arrow functions, destructuring, and promises made code cleaner and faster. Today, JS is not just for browsers; it powers servers (Node.js), frameworks (React, Angular, Vue), and even mobile apps — truly making it the heart of modern development. Understanding JS deeply sets the foundation for full-stack mastery.",
         },
         {
-            title: "Building Stunning UIs with React & Tailwind CSS",
+            title: "Building UIs with React & Tailwind CSS",
             date: "August 10, 2025",
             description:
-                "Learn how to create beautiful, responsive, and fast user interfaces using React components styled with Tailwind CSS.",
+                "Learn how to create beautiful, responsive, and fast user interfaces using React.js",
             image: react,
             content:
                 "React is a component-based JavaScript library that makes building user interfaces both intuitive and powerful. When combined with Tailwind CSS — a utility-first CSS framework — you can rapidly prototype and build beautiful, responsive web apps. This duo enables a streamlined workflow where you focus on functionality without worrying about writing long CSS files. Tailwind’s prebuilt classes and React’s reusability create a modern front-end ecosystem that developers love. This combination boosts development speed, consistency, and overall user experience.",
@@ -77,7 +77,7 @@ export default function Blogs() {
                         A collection of tutorials and insights covering every layer of the
                         MERN Stack — from frontend to backend.
                     </p>
-                    <div className="grid gap-10 sm:gap-14 md:gap-20 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid gap-6 sm:gap-16 md:gap-8 sm:grid-cols-2 lg:grid-cols-3">
                         {blogs.map((blog, index) => (
                             <motion.div
                                 key={index}
@@ -85,13 +85,13 @@ export default function Blogs() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-white rounded-3xl shadow-md border border-gray-100 p-6 flex flex-col justify-between items-center relative transition-all duration-500 hover:shadow-lg"
+                                className="bg-white rounded-3xl shadow-md border border-gray-100 p-4 flex flex-col justify-between items-center relative transition-all duration-500 hover:shadow-lg"
                             >
                                 <div className="w-full mb-4 flex justify-center overflow-hidden rounded-2xl">
                                     <img
                                         src={blog.image}
                                         alt={blog.title}
-                                        className="w-full max-w-[320px] h-40 sm:h-48 object-cover rounded-2xl transform transition-transform duration-500 hover:scale-110"
+                                        className="w-full max-w-[320px] h-40 sm:h-44 object-cover rounded transform transition-transform duration-500 hover:scale-110"
                                     />
                                 </div>
                                 <div className="flex flex-col flex-grow- text-center">

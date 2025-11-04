@@ -24,7 +24,7 @@ export default function Footer() {
         visible: { transition: { staggerChildren: 0.15 } },
     };
     return (
-        <footer className="bg-[#f4f9f9ea] text-center py-10 px-4 sm:px-8 md:px-20">
+        <footer className="bg-[#f4f9f9ea]  text-center py-10 px-4 sm:px-8 md:px-20">
             <div className="max-w-6xl mx-auto">
                 <motion.div
                     className="flex flex-col items-center mb-8"
