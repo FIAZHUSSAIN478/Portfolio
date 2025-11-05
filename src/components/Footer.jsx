@@ -67,7 +67,7 @@ export default function Footer() {
                                 spy={true}
                                 offset={-70}
                                 className="relative text-gray-700 hover:text-teal-600 font-medium cursor-pointer transition duration-300
-                           before:content-[''] before:absolute before:left-0 -bottom-1 sm:-bottom-2 before:w-0 before:h-0.5
+                           before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5
                            before:bg-[#06867d] before:transition-all before:duration-500 hover:before:w-full"
                             >
                                 {item.name}
