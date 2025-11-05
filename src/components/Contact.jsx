@@ -236,8 +236,8 @@ export default function Contact() {
                                 </a>
                                 <a href="https://wa.me/923014881443"
                                     target="_blank"
-                                    class="bg-green-600 text-white  px-4 py-2 rounded-md hover:bg-green-700 w-40 text-center">
-                                    Chat On WhatsApp
+                                    class="bg-green-900  border-2 border-amber-50 text-white  px-4 py-3 rounded-lg hover:bg-green-700 w-32 text-center">
+                                    WhatsApp
                                 </a>
                             </div>
                         </div>
