@@ -17,7 +17,7 @@ export default function About() {
     ];
     return (
         <Element name="about">
-            <section className="mt-16 min-h-screen bg-gradient from-white to-teal-50 flex flex-col justify-center px-4 sm:px-8 md:px-16 lg:px-20 py-10 overflow-hidden">
+            <section className="min-h-screen bg-gradient from-white to-teal-50 flex flex-col justify-center px-4 sm:px-8 md:px-16 lg:px-20 py-10 overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     {/* --> Left Content <-- */}
                     <div>
