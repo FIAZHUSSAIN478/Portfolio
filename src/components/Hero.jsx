@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import { Link } from "react-scroll";
-import profilePic from "../assets/profile.jpg";
+import profilePic from "../assets/profile2.jpg";
 
 const Hero = () => {
     return (
