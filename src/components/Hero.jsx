@@ -63,7 +63,7 @@ const Hero = () => {
                     <img
                         src={profilePic}
                         alt="Profile"
-                        className="w-56 h-64 sm:72 sm:h-80 md:w-80 md:h-[345px] rounded-2xl object-cover shadow-lg border-2 border-teal-400 transform transition duration-500 group-hover:scale-105 group-hover:shadow-[0_0_25px_rgba(13,148,136,0.6)] group-hover:-translate-y-2"
+                        className="w-64 h-68 sm:72 sm:h-80 md:w-80 md:h-[345px] rounded-2xl object-cover shadow-lg border-2 border-teal-400 transform transition duration-500 group-hover:scale-105 group-hover:shadow-[0_0_25px_rgba(13,148,136,0.6)] group-hover:-translate-y-2"
                     />
                     <div className="absolute -top-3 -right-3 w-4 sm:w-5 h-4 sm:h-5 bg-teal-400 rounded-full animate-ping"></div>
                     <div className="absolute -bottom-3 -left-3 w-4 sm:w-5 h-4 sm:h-5 bg-teal-400 rounded-full animate-ping delay-200"></div>
